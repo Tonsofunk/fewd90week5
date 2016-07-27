@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grade Assigner</title>
+    <link href="http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+  </head>
+  <body>
+    <section id="wrapper">
+      <h1>Grade Assigner</h1>
+      <h2>Look-up a student, assign them a curved letter grade.</h2>
+      <nav>
+        <a href="#" id="roster">Student Roster</a>
+        <a href="#" id="assign">Assign Grade</a>
+      </nav>
+      <div class="roster">
+        <ul>
+          <li id="joe">
+              <div class="name_label">Joe</div>
+              <div class="report_grade"></div>
+          </li>
+          <li id="chandler">
+              <div class="name_label">Chandler</div>
+              <div class="report_grade"></div>
+          </li>
+          <li id="suzanne">
+              <div class="name_label">Suzanne</div>
+              <div class="report_grade"></div>
+          </li>
+          <li id="andre">
+              <div class="name_label">Andre</div>
+              <div class="report_grade"></div>
+          </li>
+          <li id="meghan">
+              <div class="name_label">Meghan</div>
+              <div class="report_grade"></div>
+          </li>
+          <li id="sarah">
+              <div class="name_label">Sarah</div>
+              <div class="report_grade"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="assign">
+        <input type="text" value="Student Name" id="name">
+        <input type="text" id="grade">
+        <button id="clickme">Add </button>
+        <ul id="reportcard">
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+    <script type="text/javascript" src="js/project.js"></script>
+  </body>
+</html>
